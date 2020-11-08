@@ -2,34 +2,29 @@
 
 
  /********header queries******/
- .reducedHeader{
-    display: none;
-  }
+ .reduced_header{
+	display: none;
+}
 
-  .MainHeader{
-	  display: block
-  }
-  
- 
-  
-  @media only screen and (max-width: 1372px){
-    .mainHeader{
+@media only screen and (max-width: 1000px){
+    .main_header{
       display: none;
     }
-    .reducedHeader{
+    .reduced_header{
       display: block;
     }
-  }
-  
-  @media only screen and (max-width: 767px){
-    .reducedHeader{
-      display: block;
-    }
-   
   }
   
   /*******header queries end ********/
 
+
+
+  .reduced_header img{
+
+	
+	margin-left: 10px;
+	margin-right: 10px;
+  }
 
 
 
@@ -3499,7 +3494,7 @@ div#stacked-graph .label {
 	}
 	.navbar-nav {
 		margin: 0;
-		background: #2c3e03;
+		/* background: #2c3e03; */
 		text-align: center;
 	}
 	.navbar-nav > li {
