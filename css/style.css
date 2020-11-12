@@ -63,11 +63,12 @@ ul li,ol li{
 }
 p{
 	margin:0;
-	font-size:13px;
+	margin-top: 2px;
 }
 h1,h2,h3,h4,h5,h6,a{
 	font-family: 'Muli', sans-serif;
-	margin:0;
+	
+	
 }
 ul,label{
 	margin:0;
@@ -556,7 +557,7 @@ ul#myTab1 {
     font-size: 12px;
 }
 .w3_agile_all_trade tr th a {
-    color#2c3e03;
+    color:#2c3e03;
     text-decoration: none;
 }
 .w3_agile_all_trade tr td {
@@ -4272,7 +4273,7 @@ div#stacked-graph .label {
 				margin: 1px;
 				text-indent: -999px;
 				cursor: pointer;
-				background-color: #000\9;
+				background-color: #0009;
 				background-color: rgba(0,0,0,0);
 				border: 1px solid #2c3e03;
 				border-radius: 50%;
