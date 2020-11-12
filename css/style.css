@@ -63,12 +63,26 @@ ul li,ol li{
 }
 p{
 	margin:0;
-	margin-top: 2px;
+	font-size:13px;
 }
+
+
+.input-group-addon{
+	background-color:#060E40;
+}
+
+#main_content111 p {
+   	 font-size: 15px;
+    	line-height: 25px;
+    color: #000;
+    /* border-bottom: 1px solid white; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 h1,h2,h3,h4,h5,h6,a{
 	font-family: 'Muli', sans-serif;
-	
-	
+	margin:0;
 }
 ul,label{
 	margin:0;
@@ -557,7 +571,7 @@ ul#myTab1 {
     font-size: 12px;
 }
 .w3_agile_all_trade tr th a {
-    color:#2c3e03;
+    color#2c3e03;
     text-decoration: none;
 }
 .w3_agile_all_trade tr td {
@@ -1313,9 +1327,10 @@ a.w3_play_icon span {
 .footer{
 	padding:2em 0;
 	background:#060E40;
+margin-top:5px;
 	text-align:center;
-	margin-top: 12px;
 }
+
 .agileits_w3layouts_footer_info li,.agileits_w3layouts_footer_info li a{
 	color:#fff;
 	font-weight:bold;
@@ -4274,7 +4289,7 @@ div#stacked-graph .label {
 				margin: 1px;
 				text-indent: -999px;
 				cursor: pointer;
-				background-color: #0009;
+				background-color: #000\9;
 				background-color: rgba(0,0,0,0);
 				border: 1px solid #2c3e03;
 				border-radius: 50%;
